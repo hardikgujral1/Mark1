@@ -10,7 +10,7 @@ void loop() {
   float voltage = voltageValue * (5.0 / 1023.0);  
   int currentSensorValue = analogRead(currentSensorPin);
   Serial.print("Voltage (V): ");
-  Serial.println(voltage);s
+  Serial.println(voltage);
   Serial.print("Current (A): ");
   Serial.println(current);  
   
